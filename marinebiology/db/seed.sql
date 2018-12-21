@@ -52,7 +52,7 @@ INSERT INTO habitats(category)
 VALUES('Shallows'), ('Coral Reef'), ('Tide Pools'), ('Deeps')
 
 INSERT INTO taggings(animal_id, researcher_id)
-VALUES(1, 5), (1, 4), (2, 4), (3, 1), (4, 2), (5, 4), (6, 4), (7, 2);
+VALUES(1, 5), (1, 4), (2, 3), (3, 1), (4, 2), (5, 4), (6, 4), (7, 2);
 
 INSERT INTO sightings(species_id, researcher_id, habitat_id)
-VALUES(4, 4, 4), (3, 1, 4), (5, 3, 3), (2, 5, 3), (1, 2, 1), (2, 5, 1);
+VALUES(4, 4, 4), (3, 1, 4), (5, 3, 3), (2, 5, 2), (1, 2, 1), (2, 5, 1);
